@@ -1,0 +1,165 @@
+@import url("https://fonts.googleapis.com/css2?family=Original+Surfer&family=Ubuntu:wght@300&family=Zen+Dots&display=swap");
+* {
+  margin: 0;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.logo {
+  font-family: 'Zen Dots', cursive;
+}
+
+.instagram {
+  border: 0px solid transparent;
+  border-radius: 4px;
+  background-color: #0095F6;
+  color: antiquewhite;
+  padding: 8px;
+}
+
+.instagram .link {
+  padding-left: 8px;
+  padding-right: 8px;
+  font-size: 15px;
+  color: azure;
+  text-decoration: none;
+}
+
+.instagram:hover {
+  background: #0a5e96;
+}
+
+nav {
+  position: -webkit-sticky;
+  position: sticky;
+  background-color: #08264e;
+  color: aliceblue;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 10px;
+}
+
+.nav-items {
+  padding: 10px;
+  padding-right: 0;
+  margin-right: 0;
+}
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}
+
+h2 {
+  margin: 20px 0;
+}
+
+.para {
+  font-size: 18px;
+  line-height: 1.6em;
+  word-spacing: 3px;
+}
+
+.list-items {
+  margin-bottom: 2em;
+  font-size: 17px;
+}
+
+.image {
+  display: none;
+}
+
+.foot {
+  padding: 5%;
+  color: wheat;
+  background-color: #08264e;
+  margin-top: 20px;
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+.foot a {
+  color: aquamarine;
+}
+
+.foot a:hover {
+  color: #339171;
+}
+
+.foot-para {
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+
+.project-col {
+  color: azure;
+  margin: 5px;
+  padding: 10px;
+  max-width: 400px;
+  background-color: cadetblue;
+  border-radius: 3px;
+}
+
+.project-col a {
+  color: azure;
+  text-decoration: none;
+}
+
+.project-col:hover {
+  background-color: #2b6668;
+}
+
+@media (max-width: 500px) {
+  .nav-items {
+    font-size: large;
+    position: relative;
+    left: 20px;
+  }
+  nav {
+    position: -webkit-sticky;
+    position: sticky;
+    background-color: #08264e;
+    color: aliceblue;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .inner-items {
+    position: relative;
+    right: 20px;
+  }
+  ul {
+    position: relative;
+  }
+  hr {
+    margin: 0;
+    width: 115%;
+    padding: 0;
+  }
+  .image {
+    display: block;
+    height: 100%;
+    width: 100%;
+    margin-left: 20px;
+    margin-bottom: 30px;
+  }
+}
+/*# sourceMappingURL=style.css.map */
